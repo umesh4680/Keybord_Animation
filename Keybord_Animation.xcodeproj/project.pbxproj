@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC64EF161E46F8C300DFA153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64EF151E46F8C300DFA153 /* AppDelegate.swift */; };
+		FC64EF181E46F8C300DFA153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64EF171E46F8C300DFA153 /* ViewController.swift */; };
+		FC64EF1B1E46F8C300DFA153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC64EF191E46F8C300DFA153 /* Main.storyboard */; };
+		FC64EF1D1E46F8C300DFA153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC64EF1C1E46F8C300DFA153 /* Assets.xcassets */; };
+		FC64EF201E46F8C300DFA153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC64EF1E1E46F8C300DFA153 /* LaunchScreen.storyboard */; };
+		FC64EF2B1E46F8C400DFA153 /* Keybord_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64EF2A1E46F8C400DFA153 /* Keybord_AnimationTests.swift */; };
+		FC64EF361E46F8C400DFA153 /* Keybord_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64EF351E46F8C400DFA153 /* Keybord_AnimationUITests.swift */; };
+		FC64EF441E484B3700DFA153 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64EF431E484B3700DFA153 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC64EF271E46F8C400DFA153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC64EF0A1E46F8C300DFA153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC64EF111E46F8C300DFA153;
+			remoteInfo = Keybord_Animation;
+		};
+		FC64EF321E46F8C400DFA153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC64EF0A1E46F8C300DFA153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC64EF111E46F8C300DFA153;
+			remoteInfo = Keybord_Animation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC64EF121E46F8C300DFA153 /* Keybord_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keybord_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC64EF151E46F8C300DFA153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC64EF171E46F8C300DFA153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC64EF1A1E46F8C300DFA153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC64EF1C1E46F8C300DFA153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC64EF1F1E46F8C300DFA153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC64EF211E46F8C300DFA153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC64EF261E46F8C400DFA153 /* Keybord_AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Keybord_AnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC64EF2A1E46F8C400DFA153 /* Keybord_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keybord_AnimationTests.swift; sourceTree = "<group>"; };
+		FC64EF2C1E46F8C400DFA153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC64EF311E46F8C400DFA153 /* Keybord_AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Keybord_AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC64EF351E46F8C400DFA153 /* Keybord_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keybord_AnimationUITests.swift; sourceTree = "<group>"; };
+		FC64EF371E46F8C400DFA153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC64EF431E484B3700DFA153 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC64EF0F1E46F8C300DFA153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC64EF231E46F8C400DFA153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC64EF2E1E46F8C400DFA153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC64EF091E46F8C300DFA153 = {
+			isa = PBXGroup;
+			children = (
+				FC64EF141E46F8C300DFA153 /* Keybord_Animation */,
+				FC64EF291E46F8C400DFA153 /* Keybord_AnimationTests */,
+				FC64EF341E46F8C400DFA153 /* Keybord_AnimationUITests */,
+				FC64EF131E46F8C300DFA153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC64EF131E46F8C300DFA153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC64EF121E46F8C300DFA153 /* Keybord_Animation.app */,
+				FC64EF261E46F8C400DFA153 /* Keybord_AnimationTests.xctest */,
+				FC64EF311E46F8C400DFA153 /* Keybord_AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC64EF141E46F8C300DFA153 /* Keybord_Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FC64EF151E46F8C300DFA153 /* AppDelegate.swift */,
+				FC64EF171E46F8C300DFA153 /* ViewController.swift */,
+				FC64EF431E484B3700DFA153 /* SecondViewController.swift */,
+				FC64EF191E46F8C300DFA153 /* Main.storyboard */,
+				FC64EF1C1E46F8C300DFA153 /* Assets.xcassets */,
+				FC64EF1E1E46F8C300DFA153 /* LaunchScreen.storyboard */,
+				FC64EF211E46F8C300DFA153 /* Info.plist */,
+			);
+			path = Keybord_Animation;
+			sourceTree = "<group>";
+		};
+		FC64EF291E46F8C400DFA153 /* Keybord_AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC64EF2A1E46F8C400DFA153 /* Keybord_AnimationTests.swift */,
+				FC64EF2C1E46F8C400DFA153 /* Info.plist */,
+			);
+			path = Keybord_AnimationTests;
+			sourceTree = "<group>";
+		};
+		FC64EF341E46F8C400DFA153 /* Keybord_AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC64EF351E46F8C400DFA153 /* Keybord_AnimationUITests.swift */,
+				FC64EF371E46F8C400DFA153 /* Info.plist */,
+			);
+			path = Keybord_AnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC64EF111E46F8C300DFA153 /* Keybord_Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC64EF3A1E46F8C400DFA153 /* Build configuration list for PBXNativeTarget "Keybord_Animation" */;
+			buildPhases = (
+				FC64EF0E1E46F8C300DFA153 /* Sources */,
+				FC64EF0F1E46F8C300DFA153 /* Frameworks */,
+				FC64EF101E46F8C300DFA153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keybord_Animation;
+			productName = Keybord_Animation;
+			productReference = FC64EF121E46F8C300DFA153 /* Keybord_Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC64EF251E46F8C400DFA153 /* Keybord_AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC64EF3D1E46F8C400DFA153 /* Build configuration list for PBXNativeTarget "Keybord_AnimationTests" */;
+			buildPhases = (
+				FC64EF221E46F8C400DFA153 /* Sources */,
+				FC64EF231E46F8C400DFA153 /* Frameworks */,
+				FC64EF241E46F8C400DFA153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC64EF281E46F8C400DFA153 /* PBXTargetDependency */,
+			);
+			name = Keybord_AnimationTests;
+			productName = Keybord_AnimationTests;
+			productReference = FC64EF261E46F8C400DFA153 /* Keybord_AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC64EF301E46F8C400DFA153 /* Keybord_AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC64EF401E46F8C400DFA153 /* Build configuration list for PBXNativeTarget "Keybord_AnimationUITests" */;
+			buildPhases = (
+				FC64EF2D1E46F8C400DFA153 /* Sources */,
+				FC64EF2E1E46F8C400DFA153 /* Frameworks */,
+				FC64EF2F1E46F8C400DFA153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC64EF331E46F8C400DFA153 /* PBXTargetDependency */,
+			);
+			name = Keybord_AnimationUITests;
+			productName = Keybord_AnimationUITests;
+			productReference = FC64EF311E46F8C400DFA153 /* Keybord_AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC64EF0A1E46F8C300DFA153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Umesh;
+				TargetAttributes = {
+					FC64EF111E46F8C300DFA153 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L463J7GSRR;
+						ProvisioningStyle = Automatic;
+					};
+					FC64EF251E46F8C400DFA153 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L463J7GSRR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC64EF111E46F8C300DFA153;
+					};
+					FC64EF301E46F8C400DFA153 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L463J7GSRR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC64EF111E46F8C300DFA153;
+					};
+				};
+			};
+			buildConfigurationList = FC64EF0D1E46F8C300DFA153 /* Build configuration list for PBXProject "Keybord_Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC64EF091E46F8C300DFA153;
+			productRefGroup = FC64EF131E46F8C300DFA153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC64EF111E46F8C300DFA153 /* Keybord_Animation */,
+				FC64EF251E46F8C400DFA153 /* Keybord_AnimationTests */,
+				FC64EF301E46F8C400DFA153 /* Keybord_AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC64EF101E46F8C300DFA153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC64EF201E46F8C300DFA153 /* LaunchScreen.storyboard in Resources */,
+				FC64EF1D1E46F8C300DFA153 /* Assets.xcassets in Resources */,
+				FC64EF1B1E46F8C300DFA153 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC64EF241E46F8C400DFA153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC64EF2F1E46F8C400DFA153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC64EF0E1E46F8C300DFA153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC64EF441E484B3700DFA153 /* SecondViewController.swift in Sources */,
+				FC64EF181E46F8C300DFA153 /* ViewController.swift in Sources */,
+				FC64EF161E46F8C300DFA153 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC64EF221E46F8C400DFA153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC64EF2B1E46F8C400DFA153 /* Keybord_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC64EF2D1E46F8C400DFA153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC64EF361E46F8C400DFA153 /* Keybord_AnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC64EF281E46F8C400DFA153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC64EF111E46F8C300DFA153 /* Keybord_Animation */;
+			targetProxy = FC64EF271E46F8C400DFA153 /* PBXContainerItemProxy */;
+		};
+		FC64EF331E46F8C400DFA153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC64EF111E46F8C300DFA153 /* Keybord_Animation */;
+			targetProxy = FC64EF321E46F8C400DFA153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC64EF191E46F8C300DFA153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC64EF1A1E46F8C300DFA153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC64EF1E1E46F8C300DFA153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC64EF1F1E46F8C300DFA153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC64EF381E46F8C400DFA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC64EF391E46F8C400DFA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC64EF3B1E46F8C400DFA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L463J7GSRR;
+				INFOPLIST_FILE = Keybord_Animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonora.Keybord-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC64EF3C1E46F8C400DFA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L463J7GSRR;
+				INFOPLIST_FILE = Keybord_Animation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonora.Keybord-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC64EF3E1E46F8C400DFA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L463J7GSRR;
+				INFOPLIST_FILE = Keybord_AnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonora.Keybord-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keybord_Animation.app/Keybord_Animation";
+			};
+			name = Debug;
+		};
+		FC64EF3F1E46F8C400DFA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L463J7GSRR;
+				INFOPLIST_FILE = Keybord_AnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonora.Keybord-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keybord_Animation.app/Keybord_Animation";
+			};
+			name = Release;
+		};
+		FC64EF411E46F8C400DFA153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L463J7GSRR;
+				INFOPLIST_FILE = Keybord_AnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonora.Keybord-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Keybord_Animation;
+			};
+			name = Debug;
+		};
+		FC64EF421E46F8C400DFA153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L463J7GSRR;
+				INFOPLIST_FILE = Keybord_AnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sonora.Keybord-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Keybord_Animation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC64EF0D1E46F8C300DFA153 /* Build configuration list for PBXProject "Keybord_Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC64EF381E46F8C400DFA153 /* Debug */,
+				FC64EF391E46F8C400DFA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC64EF3A1E46F8C400DFA153 /* Build configuration list for PBXNativeTarget "Keybord_Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC64EF3B1E46F8C400DFA153 /* Debug */,
+				FC64EF3C1E46F8C400DFA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC64EF3D1E46F8C400DFA153 /* Build configuration list for PBXNativeTarget "Keybord_AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC64EF3E1E46F8C400DFA153 /* Debug */,
+				FC64EF3F1E46F8C400DFA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC64EF401E46F8C400DFA153 /* Build configuration list for PBXNativeTarget "Keybord_AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC64EF411E46F8C400DFA153 /* Debug */,
+				FC64EF421E46F8C400DFA153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC64EF0A1E46F8C300DFA153 /* Project object */;
+}
